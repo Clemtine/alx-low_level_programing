@@ -20,6 +20,5 @@ int main(void)
 		putchar(j);
 		j++;
 	}
-	putchar(10);
 	return (0);
 }

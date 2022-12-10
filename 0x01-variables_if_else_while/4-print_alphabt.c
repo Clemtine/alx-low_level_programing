@@ -8,9 +8,12 @@ int main(void)
 	int i;
 
 	i = 97;
-	while (i < 123 && i != 'e' && i != 'q')
+	while (i < 123)
 	{
-		putchar(i);
+		if (i != 'e' && i != 'q')
+		{
+			putchar(i);
+		}
 		i++;
 	}
 	putchar(10);

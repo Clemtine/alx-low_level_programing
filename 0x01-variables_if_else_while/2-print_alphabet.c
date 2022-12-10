@@ -2,11 +2,11 @@
 /**
  * main -My learning programm c
  *
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
-	int i, j;
+	int i;
 
 	i = 97;
 	while (i < 123)

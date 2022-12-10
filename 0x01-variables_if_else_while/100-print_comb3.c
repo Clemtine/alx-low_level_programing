@@ -9,7 +9,7 @@ int main(void)
 	int a;
 	int i;
 
-	for (a = 45; a <= 56; a++)
+	for (a = 48; a <= 56; a++)
 	{
 		for (i = a + 1; i <= 57; i++)
 		{

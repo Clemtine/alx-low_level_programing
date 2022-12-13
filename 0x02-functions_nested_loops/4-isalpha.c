@@ -8,7 +8,7 @@
 
 int _isalpha(int c)
 {
-	fi((c >= 'a' && c <= 'z') || (c >= 'A' && <= 'Z'))
+	if((c >= 'a' && c <= 'z') || (c >= 'A' && <= 'Z'))
 		return (1);
 	else
 		return (0);

@@ -15,10 +15,10 @@ int largest_number(int a, int b, int c)
 	if (a > b)
 	{
 		if (b > c || c > b)
-		{	
+		{
 			largest = a;
 		}
-		/*else if (c > a)*:
+		/*else if (c > a)*/
 		/*{*/
 		/*	largest = c;*/
 		/*}*/

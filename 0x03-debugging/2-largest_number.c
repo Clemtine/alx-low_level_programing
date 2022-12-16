@@ -14,22 +14,22 @@ int largest_number(int a, int b, int c)
 
 	if (a > b)
 	{
-		if (b > c || c > b)
+		if (b >= c || c >= b)
 		{
 			largest = a;
 		}
-		else if (c > a)
+		else if (c >= a)
 		{
 			largest = c;
 		}
 	}
-	else if (b > a)
+	else if (b >= a)
 	{
-		if (a > c || c > a)
+		if (a >= c || c >= a)
 		{
 			largest = b;
 		}
-		else if (c > b)
+		else if (c >= b)
 		{
 			largest = c;
 		}

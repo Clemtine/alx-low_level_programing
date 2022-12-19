@@ -4,7 +4,8 @@
 /**
  * _strlen - My learning fonction
  *
- * Return : 0
+ * @s: char to check
+ * Return: 1
  */
 int _strlen(char *s)
 {

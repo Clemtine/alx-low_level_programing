@@ -10,7 +10,7 @@
 
 void puts2(char *str)
 {
-	if (dtr == NULL)
+	if (str == NULL)
 	{
 		return;
 	}

@@ -1,5 +1,5 @@
 #include "main.h"
-i
+
 /**
  * _memset - a function
  * @s: memory area

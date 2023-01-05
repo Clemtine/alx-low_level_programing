@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_most_numbers - prints numbers between 0 to 9
  * (neither 2 nor 4)
@@ -7,7 +6,7 @@
  */
 void print_most_numbers(void)
 {
-	int c;
+	int ch;
 
 	for (ch = 48; ch < 58; ch++)
 	{

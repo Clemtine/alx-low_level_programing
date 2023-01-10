@@ -63,5 +63,5 @@ char **strtow(char *str)
 		cl[i][j] = '\0';
 	}
 	cl[i] = NULL;
-	return (aout);
+	return (cl);
 }

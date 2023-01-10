@@ -26,9 +26,9 @@ char *argstostr(int ac, char **av)
 		c++;
 	}
 
-	aout = malloc((c + 1) * sizeof(char));
+	clem = malloc((c + 1) * sizeof(char));
 
-	if (aout == NULL)
+	if (clem == NULL)
 	{
 		free(clem);
 		return (NULL);
